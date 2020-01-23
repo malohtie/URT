@@ -20,8 +20,8 @@ This project built using PHP [Lumen](https://lumen.laravel.com) Micro Framework 
 
 The features currently implemented:
 
-- [ ] Number of repos using this language.
-- [ ] The list of repos using the language.
+- [x] Number of repos using this language.
+- [x] The list of repos using the language.
 - [ ] Framework popularity over the 100 repos.
 - [ ] Secure the microservice.
 
