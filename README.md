@@ -20,6 +20,7 @@ This project built using PHP [Lumen](https://lumen.laravel.com) Micro Framework 
 
 The features currently implemented:
 
+- [x] list of languages used by the trending public repos on GitHub.
 - [x] Number of repos using this language.
 - [x] The list of repos using the language.
 - [ ] Framework popularity over the 100 repos.
