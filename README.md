@@ -44,3 +44,9 @@ Navigate to `http://localhost:8000/api/trending` and you should see your json re
 
 ![Imgur](https://i.imgur.com/juZprX0.png)
 
+## Unit tests
+
+To run unit tests simply execute this command. Make sure you're in the project directory
+
+    /vendor/bin/phpunit
+
