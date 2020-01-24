@@ -33,7 +33,7 @@ class GithubTrendingRepos
     public function getTrendingLanguages()
     {
         try {
-            $response = $this->guzzleClient->get($this->end_point);
+            $response = $this->guzzleClient->get($this->endPoint);
             $languages = \json_decode($response->getBody(), TRUE);
             return $this->refactorResponse($languages);
 
