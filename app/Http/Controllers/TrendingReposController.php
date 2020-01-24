@@ -19,7 +19,7 @@ class TrendingReposController extends Controller
         if(!empty($languages)) {
             return response()->json($languages);
         }
-        return response("RETRY LATER");
+        return response()->json("RETRY LATER");
 
     }
 }
