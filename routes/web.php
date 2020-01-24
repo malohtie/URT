@@ -11,4 +11,8 @@
 |
 */
 
-$router->get('trending', 'TrendingReposController@trending');
+$router->group(['prefix' => 'api'], function () use ($router) {
+
+    $router->get('trending', 'TrendingReposController@trending');
+
+});
