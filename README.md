@@ -40,5 +40,7 @@ Start the local development server:
 
     php -S localhost:8000 -t public
     
-Navigate to `http://localhost:8000/api/trending` and you should see your result.
+Navigate to `http://localhost:8000/api/trending` and you should see your result like this.
+
+![Imgur](https://i.imgur.com/juZprX0.png)
 
