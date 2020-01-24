@@ -23,8 +23,8 @@ The features currently implemented:
 - [x] list of languages used by the trending public repos on GitHub.
 - [x] Number of repos using this language.
 - [x] The list of repos using the language.
-- [ ] Framework popularity over the 100 repos.
-- [ ] Secure the microservice.
+- [ ] Framework popularity over the 100 repos.(in progress)
+- [ ] Secure the microservice.(in progress)
 
 ## Installation
 
@@ -40,7 +40,7 @@ Start the local development server:
 
     php -S localhost:8000 -t public
     
-Navigate to `http://localhost:8000/api/trending` and you should see your result like this.
+Navigate to `http://localhost:8000/api/trending` and you should see your json result like this.
 
 ![Imgur](https://i.imgur.com/juZprX0.png)
 
