@@ -1,4 +1,4 @@
-## UNITED REMOTE CODING CHALLENGE
+## UNITED REMOTE TEST (URT)
 
 I'm in charge to build a REST microservice that list the languages used by the top trending public repos on GitHub.
 
