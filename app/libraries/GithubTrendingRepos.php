@@ -42,6 +42,7 @@ class GithubTrendingRepos
     }
 
     /**
+     * Refactor response data from end point
      * @param $languages
      * @return bool|mixed
      */
