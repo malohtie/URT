@@ -9,7 +9,7 @@ Github API doesn't include anyway to get top 100 trending repos, they have a web
 ## Solution
 
 we could use scrapping and get elements from the web page but Luckily after some search i found a nice article 🥳 that can be found [here](https://medium.com/@max.day/how-to-detect-github-trending-repo-api-using-githubarchive-heroku-mongodb-and-github-api-b3489efd9f3e).
- The solution use [Github Archive](https://www.gharchive.org) database and query all repositories which had being stared three times over all the records of the archive in one hour, after that to detect the main language of each result they fetch the repo using Github API and get the information needed.
+ The solution use [Github Archive](https://www.gharchive.org) database and query all repositories which had being stared three times over all the records of the archive in one hour (return about 80 trending repos), after that to detect the main language of each result they fetch the repo using Github [API](https://developer.github.com/v3/repos) and get the information needed.
 Finally they provide an [endpoint](https://maxday.github.io/trending/data.json) that i will use in this project 😍
 
 ## Structure
