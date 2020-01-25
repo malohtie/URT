@@ -37,7 +37,7 @@ class GithubTrendingRepos
             return $this->refactorResponse($languages);
 
         } catch (ClientException $ex) {
-            return FALSE;
+            return false;
         }
     }
 
@@ -59,6 +59,6 @@ class GithubTrendingRepos
             }
             return $response;
         }
-        return FALSE;
+        return false;
     }
 }
